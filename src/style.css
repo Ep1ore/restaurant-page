@@ -13,12 +13,14 @@ body {
 }
 
 #content > nav {
+    z-index: 2;
     position: absolute;
     top: 0;
     display: flex;
     background-color: #361d32;
     width: 100vw;
     height: 5vh;
+    box-shadow: 0 5px 15px;
 }
 
 #content > nav > div {
@@ -47,6 +49,7 @@ body {
 }
 
 #text-container {
+    box-shadow: 5px 0 15px;
     position: absolute;
     left: 0;
     right: 0;
