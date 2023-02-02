@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#dragon-background-image {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    filter: blur(5px);    
+}
+
+#content > nav {
+    position: absolute;
+    top: 0;
+    display: flex;
+    background-color: #361d32;
+    width: 100vw;
+    height: 5vh;
+}
+
+#content > nav > div {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 5vh;
+    width: 40vw;
+}
+
+#content > nav > div > button {
+    height: 5vh;
+    width: 33.33%;
+    color: white;
+    background-color: #361d32;
+    border: none;
+    font-size: 100%;
+}
+
+#content > nav > div > button:hover {
+    cursor: pointer;
+    background-color: rgb(154, 145, 156);
+}
+
+#text-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5vh;
+    margin: auto;
+    background-color: #edd2cb;
+    width: 50%;
+    height: 95%;
+}
+
+#home-title {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 3%;
+    color: white;
+    text-shadow: 2px 2px 5px #f55951;
+}
+
+#home-paragraph {
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #543c52;
+    padding: 2%;
+}
+
+#home-dragon {
+    width: 50%;
+    padding: 4% 25%;
+}
