@@ -1,4 +1,5 @@
 import homePage from "./home.js";
+import menuPage from "./menu.js";
 const content = document.getElementById("content");
 
 export default function defaultPageFormat() {
@@ -40,4 +41,7 @@ function clearContent() {
 //     clearContent(); homePage();
 // });
 const menuBtn = document.getElementById("menu-btn");
+menuBtn.addEventListener("click", function(){
+    clearContent(); menuPage();
+})
 const contactBtn = document.getElementById("contact-btn");
