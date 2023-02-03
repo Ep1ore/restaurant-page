@@ -40,8 +40,8 @@ function clearContent() {
 // homeBtn.addEventListener("click", function(){
 //     clearContent(); homePage();
 // });
-const menuBtn = document.getElementById("menu-btn");
-menuBtn.addEventListener("click", function(){
-    clearContent(); menuPage();
-})
+// const menuBtn = document.getElementById("menu-btn");
+// menuBtn.addEventListener("click", function(){
+//     clearContent(); menuPage();
+// })
 const contactBtn = document.getElementById("contact-btn");

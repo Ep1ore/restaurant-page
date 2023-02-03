@@ -96,3 +96,27 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+#contact-title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.contact-item{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contact-item-container {
+    display: flex;
+    height: 8%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact-item-text {
+    align-self: center;
+    font-size: 1.2rem;
+    margin-left: 3%;
+}
