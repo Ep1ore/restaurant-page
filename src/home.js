@@ -15,6 +15,7 @@ export default function createHomePage() {
     those are bad vibes, and we're not up for that tbh.`;
     const homeDragon = document.createElement("img");
     homeDragon.id = "home-dragon";
+    homeDragon.alt = "An epic dragon";
 
     const textContainer = document.getElementById("text-container");
     textContainer.appendChild(homeTitle);

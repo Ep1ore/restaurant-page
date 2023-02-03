@@ -79,3 +79,20 @@ body {
     width: 50%;
     padding: 4% 25%;
 }
+
+#menu-title {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.item-title, .menu-paragraph {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.item-image {
+    height: 15%;
+    display: block;
+    margin: 0 auto;
+}
