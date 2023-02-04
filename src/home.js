@@ -14,6 +14,7 @@ export default function createHomePage() {
     you feel too sick from the food we are not really responsible,
     those are bad vibes, and we're not up for that tbh.`;
     const homeDragon = document.createElement("img");
+    homeDragon.src = "../src/img/epic-dragon.jpg";
     homeDragon.id = "home-dragon";
     homeDragon.alt = "An epic dragon";
 

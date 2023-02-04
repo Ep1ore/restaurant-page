@@ -12,7 +12,7 @@ body {
     filter: blur(5px);    
 }
 
-#content > nav {
+nav {
     z-index: 2;
     position: absolute;
     top: 0;
@@ -23,7 +23,7 @@ body {
     box-shadow: 0 5px 15px;
 }
 
-#content > nav > div {
+nav > div {
     display: flex;
     position: absolute;
     justify-content: center;
@@ -34,7 +34,7 @@ body {
     width: 40vw;
 }
 
-#content > nav > div > button {
+nav > div > button {
     height: 5vh;
     width: 33.33%;
     color: white;
@@ -43,7 +43,7 @@ body {
     font-size: 100%;
 }
 
-#content > nav > div > button:hover {
+nav > div > button:hover {
     cursor: pointer;
     background-color: rgb(154, 145, 156);
 }
